@@ -2,12 +2,13 @@
   "name": "@illuxdev/app-core-js",
   "version": "1.0.0",
   "description": "Build powerful, full-stack, cross-platform applications from the ground up!",
-  "main": "build/js/main.js",
+  "main": "build/js/src/main.js",
   "type": "module",
   "typings": "typings",
   "scripts": {
     "format": "prettier --write .",
-    "dev": "tsc --watch"
+    "dev": "tsc --watch",
+    "example": "cd \"build/examples/$npm_config_path\""
   },
   "repository": {
     "type": "git",
