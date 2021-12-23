@@ -1,3 +1,5 @@
+import chalk from "chalk";
+
 /**
  * Log a formatted message into the console
  * @param tag Tag prefix
