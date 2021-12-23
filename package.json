@@ -4,6 +4,7 @@
   "description": "Build powerful, full-stack, cross-platform applications from the ground up!",
   "main": "build/js/main.js",
   "type": "module",
+  "typings": "typings",
   "scripts": {
     "format": "prettier --write .",
     "dev": "tsc --watch"
@@ -22,6 +23,7 @@
     "typescript": "^4.5.4"
   },
   "dependencies": {
+    "chalk": "^5.0.0",
     "prettier": "^2.5.1",
     "source-map-support": "^0.5.21"
   }
